@@ -1,5 +1,5 @@
-Given(/^I visit the landing page$/) do
-  visit root_path
+Given("I visit the {string} landing page") do |admin|
+  visit "/#{admin}"
 end
 
 Then(/^I should see "([^"]*)"$/) do |welcome|

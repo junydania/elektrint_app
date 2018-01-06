@@ -1,6 +1,28 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/jobs_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/jobs_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/channels/application_cable/channel.rb": [
         0,
         0,
@@ -10,15 +32,6 @@
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/channels/application_cable/connection.rb": [
         0,
         0,
-        0,
-        0
-      ],
-      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/application_controller.rb": [
-        0,
-        0,
-        0
-      ],
-      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/application_helper.rb": [
         0,
         0
       ],
@@ -38,6 +51,6 @@
         0
       ]
     },
-    "timestamp": 1514055021
+    "timestamp": 1515279435
   }
 }

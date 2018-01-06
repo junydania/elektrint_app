@@ -8,6 +8,12 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
+/.bundle
+coverage/.resultset.json
+coverage/*
+
+
+# Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
@@ -17,3 +23,9 @@
 /yarn-error.log
 
 .byebug_history
+*/.idea/
+.idea/
+/.idea/
+.env
+Procfile
+.coveralls.yml
