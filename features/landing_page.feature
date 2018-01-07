@@ -4,4 +4,5 @@ Feature: As an HR administrator,
 
   Scenario:
     Given I visit the "admin" landing page
-    Then I should see "Stanbic Career Planning Tool"
+    Then I should see "HR Login Page"
+

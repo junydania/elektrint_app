@@ -1651,11 +1651,12 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 .project-box .project-members a:first-of-type {
   margin-left: 0px;
 }
+
 /* =============
    Accounts pages
 ============= */
 .account-pages {
-  background: url("../images/big/bg.jpg") center;
+  background: url("../bg.jpg") center;
   position: absolute;
   height: 100%;
   width: 100%;
