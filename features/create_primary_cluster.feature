@@ -1,6 +1,6 @@
 Feature: As an administrator
-  In order to link jobs to a job family
-  I should be able to populate the system with new job families
+  In order to link jobs to a primary cluster
+  I should be able to populate the system with new primary clusters
 
 
   Background:
@@ -15,9 +15,10 @@ Feature: As an administrator
     And I fill in field "user_email" with "o.dania@icloud.com"
     And I fill in field "user_password" with "12345678"
     And I click on "Log In"
-    And I click on "Job Family"
-    And I click on "Create Job Family"
-    And I fill in field 'Family Name' with 'Business Development'
+    And I click on "Primary Cluster"
+    And I click on "Create Primary Cluster"
+    And I fill in field 'Cluster Name' with 'Business Operation'
     And I click on "Submit"
-    Then I should see "Job Family successfully added"
+    Then I should see "New Primary Cluster Successfully Added"
+
 

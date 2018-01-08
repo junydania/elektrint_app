@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :jobs
     resources :job_families
+    resources :primary_clusters
   end
 
 

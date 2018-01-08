@@ -1,7 +1,15 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/job_families_helper.rb": [
+        1,
+        null
+      ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/jobs_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/primary_clusters_helper.rb": [
         1,
         null
       ],
@@ -9,12 +17,30 @@
         1,
         null
       ],
-      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/jobs_controller.rb": [
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/job_families_controller.rb": [
         1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
         null,
         1,
         null,
         1,
+        null,
+        0,
+        null,
+        null,
         null,
         null,
         null
@@ -50,6 +76,60 @@
         null,
         0,
         null,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/jobs_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/primary_clusters_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/job_family.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/primary_cluster.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
         null,
         null,
         null
@@ -95,7 +175,7 @@
         0
       ]
     },
-    "timestamp": 1515292653
+    "timestamp": 1515453313
   },
   "Cucumber Features": {
     "coverage": {
@@ -164,6 +244,10 @@
         1,
         null
       ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/primary_clusters_helper.rb": [
+        1,
+        null
+      ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/jobs_controller.rb": [
         1,
         null,
@@ -175,28 +259,70 @@
         null,
         null
       ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/primary_clusters_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/primary_cluster.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/job_families_controller.rb": [
         1,
         null,
         null,
         1,
-        2,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
         1,
         null,
         null,
-        null,
-        null,
         1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
         null,
         1,
         null,
         1,
+        null,
+        0,
         null,
         null,
         null,
@@ -214,7 +340,7 @@
         1,
         null,
         1,
-        1,
+        0,
         null,
         null,
         null,
@@ -244,6 +370,6 @@
         0
       ]
     },
-    "timestamp": 1515370321
+    "timestamp": 1515454538
   }
 }
