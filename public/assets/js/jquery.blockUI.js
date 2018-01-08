@@ -170,10 +170,10 @@
 				'border-radius':		'10px'
 			},
 
-			// IE issues: 'about:blank' fails on HTTPS and javascripts:false is s-l-o-w
+			// IE issues: 'about:blank' fails on HTTPS and javascript:false is s-l-o-w
 			// (hat tip to Jorge H. N. de Vasconcelos)
 			/*jshint scripturl:true */
-			iframeSrc: /^https/i.test(window.location.href || '') ? 'javascripts:false' : 'about:blank',
+			iframeSrc: /^https/i.test(window.location.href || '') ? 'javascript:false' : 'about:blank',
 
 			// force usage of iframe in non-IE browsers (handy for blocking applets)
 			forceIframe: false,
