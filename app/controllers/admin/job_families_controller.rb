@@ -10,6 +10,8 @@ class Admin::JobFamiliesController < ApplicationController
     if new_job_family.save
       flash[:notice] = 'Job Family successfully added'
       redirect_to new_admin_job_family_path
+    else
+      render 'new'
     end
   end
 

@@ -9,7 +9,9 @@ class Admin::SecondaryClustersController < ApplicationController
     new_secondary_cluster = SecondaryCluster.new(secondary_cluster_param)
     if new_secondary_cluster.save
       flash[:notice] = 'New Secondary Cluster Successfully Added'
-      redirect_to new_admin_job_family_path
+      redirect_to new_admin_secondary_cluster_path
+    else
+      render 'new'
     end
   end
 

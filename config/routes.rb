@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     resources :job_families
     resources :primary_clusters
     resources :secondary_clusters
+    resources :divisions
   end
 
 
