@@ -248,6 +248,10 @@
         1,
         null
       ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/secondary_clusters_helper.rb": [
+        1,
+        null
+      ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/jobs_controller.rb": [
         1,
         null,
@@ -259,44 +263,45 @@
         null,
         null
       ],
-      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/primary_clusters_controller.rb": [
-        1,
-        null,
-        1,
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/secondary_clusters_controller.rb": [
         1,
         null,
         null,
         1,
         1,
-        1,
-        1,
-        1,
-        null,
-        null,
         null,
         null,
         1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null,
         1,
         null,
         1,
         null,
+        1,
         null,
         null,
         null
       ],
-      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/primary_cluster.rb": [
-        1,
-        null,
-        1,
-        null,
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/secondary_cluster.rb": [
         1,
         null,
         null,
         1,
         null,
         1,
+        null,
         1,
+        null,
+        1,
+        1,
+        null,
         null,
         null,
         null
@@ -359,6 +364,32 @@
         0,
         0
       ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/primary_clusters_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/jobs/application_job.rb": [
         0,
         0
@@ -368,8 +399,24 @@
         0,
         0,
         0
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/primary_cluster.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1515454538
+    "timestamp": 1515456042
   }
 }
