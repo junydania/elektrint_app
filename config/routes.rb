@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     resources :primary_clusters
     resources :secondary_clusters
     resources :divisions
+    resources :business_units
   end
 
 

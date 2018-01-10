@@ -1,6 +1,10 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/business_units_helper.rb": [
+        1,
+        null
+      ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/divisions_helper.rb": [
         1,
         null
@@ -25,7 +29,7 @@
         1,
         null
       ],
-      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/divisions_controller.rb": [
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/business_units_controller.rb": [
         1,
         null,
         1,
@@ -83,6 +87,33 @@
         null,
         0,
         null,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/divisions_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        0,
         null,
         null,
         null
@@ -180,6 +211,22 @@
         1,
         null,
         0,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/business_unit.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
         null,
         null,
         null
@@ -291,7 +338,7 @@
         0
       ]
     },
-    "timestamp": 1515458215
+    "timestamp": 1515618047
   },
   "Cucumber Features": {
     "coverage": {
@@ -322,33 +369,37 @@
         1,
         null,
         1,
-        5,
-        5,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        11,
-        null,
-        null,
-        null,
-        1,
-        19,
         6,
+        6,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
         13,
+        null,
+        null,
+        null,
+        1,
+        23,
+        7,
+        16,
         0,
-        13,
+        16,
         0,
         null,
-        13,
+        16,
         null,
         null,
         null,
         null
       ],
       "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/helpers/admin/business_units_helper.rb": [
         1,
         null
       ],
@@ -377,6 +428,49 @@
         null,
         1,
         null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/controllers/admin/business_units_controller.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/DanDevOps/Desktop/Web design/MyCodeCraft/career_tool/app/models/business_unit.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
         1,
         null,
         null,
@@ -585,6 +679,6 @@
         0
       ]
     },
-    "timestamp": 1515458224
+    "timestamp": 1515618063
   }
 }
