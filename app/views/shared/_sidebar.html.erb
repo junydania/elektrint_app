@@ -4,7 +4,7 @@
     <!-- User -->
     <div class="user-box">
       <div class="user-img">
-        <%= image_tag "users/avatar-1.jpg", :alt => "user-img", :title => "Mat Helme", :class => "img-circle img-thumbnail img-responsive" %>
+        <%= image_tag "users/employee.png", :alt => "user-img", :title => "Mat Helme", :class => "img-circle img-thumbnail img-responsive" %>
             <div class="user-status offline"><i class="zmdi zmdi-dot-circle"></i></div>
       </div>
       <h5><a href="#">Mat Helme</a> </h5>
@@ -47,7 +47,7 @@
         </li>
 
         <li class="has_sub">
-          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-black-tie"></i> <span> Primary Cluster</span> <span class="menu-arrow"></span></a>
+          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-address-book"></i> <span> Primary Cluster</span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><%= link_to "Create Primary Cluster", new_admin_primary_cluster_path %></li>
             <li><%= link_to "View Primary Clusters", admin_primary_clusters_path %></li>
@@ -55,7 +55,7 @@
         </li>
 
         <li class="has_sub">
-          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-black-tie"></i> <span> Secondary Cluster</span> <span class="menu-arrow"></span></a>
+          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-address-book-o"></i> <span> Secondary Cluster</span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><%= link_to "Create Secondary Cluster", new_admin_secondary_cluster_path %></li>
             <li><%= link_to "View Secondary Clusters", admin_secondary_clusters_path %></li>
@@ -63,7 +63,7 @@
         </li>
 
         <li class="has_sub">
-          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-black-tie"></i> <span> Job Division </span> <span class="menu-arrow"></span></a>
+          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-user-circle-o"></i> <span> Job Division </span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><%= link_to "Create Division", new_admin_division_path %></li>
             <li><%= link_to "View Divisions", admin_divisions_path %></li>
@@ -71,10 +71,19 @@
         </li>
 
         <li class="has_sub">
-          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-black-tie"></i> <span> Business Unit </span> <span class="menu-arrow"></span></a>
+          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-area-chart"></i> <span> Business Unit </span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
-            <li><%= link_to "Create Business Units", new_admin_business_unit_path %></li>
-            <li><%= link_to "View Busines Units", admin_business_units_path %></li>
+            <li><%= link_to "Create Business Unit", new_admin_business_unit_path %></li>
+            <li><%= link_to "View Business Units", admin_business_units_path %></li>
+          </ul>
+        </li>
+
+
+        <li class="has_sub">
+          <a href="javascript:void(0); class="waves-effect"><i class="fa fa-briefcase"></i> <span> Organizational Unit </span> <span class="menu-arrow"></span></a>
+          <ul class="list-unstyled">
+            <li><%= link_to "Create Organizational Unit", new_admin_organizational_unit_path %></li>
+            <li><%= link_to "View Organizational Units", admin_organizational_units_path %></li>
           </ul>
         </li>
 
