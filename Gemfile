@@ -30,6 +30,8 @@ gem 'jquery-rails'
 gem 'less-rails-bootstrap'
 gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'devise'
+gem "font-awesome-rails"
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
