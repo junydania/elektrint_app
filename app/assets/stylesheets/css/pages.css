@@ -1656,7 +1656,8 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
    Accounts pages
 ============= */
 .account-pages {
-  background: url("../bg.jpg") center;
+    background: url("../bg.jpg") center;
+    /*background: url("../bg.jpg") center;*/
   position: absolute;
   height: 100%;
   width: 100%;

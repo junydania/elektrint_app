@@ -1,6 +1,5 @@
 class Admin::JobFamiliesController < ApplicationController
 
-
   def new
     @job_family = JobFamily.new
   end
@@ -22,7 +21,6 @@ class Admin::JobFamiliesController < ApplicationController
     params.require(:job_family)
         .permit(:family_name)
   end
-
-
+  
 
 end
