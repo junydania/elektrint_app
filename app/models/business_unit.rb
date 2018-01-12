@@ -4,6 +4,11 @@ class BusinessUnit < ApplicationRecord
 
   before_save :capitalize_unit_name
 
+
+
+
+
+
   private
 
   def capitalize_unit_name
