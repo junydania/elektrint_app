@@ -16,6 +16,7 @@ Rails.application.routes.draw do
     resources :divisions
     resources :business_units
     resources :organizational_units
+    resources :work_levels
   end
 
 

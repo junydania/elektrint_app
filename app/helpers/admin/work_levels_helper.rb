@@ -1,0 +1,2 @@
+module Admin::WorkLevelsHelper
+end
