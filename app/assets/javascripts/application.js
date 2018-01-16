@@ -13,10 +13,14 @@
 //= require rails-ujs
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require twitter/bootstrap
 //= require turbolinks
 //= require dataTables/jquery.dataTables
+//= require cocoon
+//= require_tree ./admin
 //= require_tree .
+
 
 
 

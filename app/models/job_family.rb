@@ -1,5 +1,7 @@
 class JobFamily < ApplicationRecord
 
+  has_many :jobs
+
   validates_presence_of  :family_name
 
   before_save :capitalize_family_name

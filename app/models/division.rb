@@ -1,5 +1,6 @@
 class Division < ApplicationRecord
 
+  has_many :jobs
   validates_presence_of  :division_name
 
   before_save :capitalize_division_name

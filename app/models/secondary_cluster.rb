@@ -1,6 +1,6 @@
 class SecondaryCluster < ApplicationRecord
 
-
+  has_many :jobs
   validates_presence_of  :cluster_name
 
   before_save :capitalize_cluster_name

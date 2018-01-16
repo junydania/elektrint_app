@@ -29,6 +29,7 @@
   <body class="fixed-left">
 
     <div id="wrapper">
+      <%= yield :before_body %>
       <%= render :partial => 'shared/topbar'%>
       <%= render :partial => 'shared/sidebar'%>
       <%= yield %>

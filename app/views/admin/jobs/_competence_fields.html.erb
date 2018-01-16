@@ -1,0 +1,17 @@
+<div class="nested-fields">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="p-20">
+        <div class="m-t-20">
+          <h5><b><%= f.label :skill %></h5>
+          <%= f.text_field :skill, autofocus: true, :class => "form-control" %>
+          <br>
+          <%= link_to_remove_association "Remove Skill", f, class: "btn btn-danger" %>
+        </div>
+      </div>
+    </div><!-- end col -->
+  </div><!-- end row -->
+
+</div>
+
+

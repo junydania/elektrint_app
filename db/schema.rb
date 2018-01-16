@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180112171756) do
+ActiveRecord::Schema.define(version: 20180115202055) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 20180112171756) do
     t.string "skill"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "job_id"
+    t.index ["job_id"], name: "index_competences_on_job_id"
   end
 
   create_table "divisions", force: :cascade do |t|
@@ -37,6 +39,27 @@ ActiveRecord::Schema.define(version: 20180112171756) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "family_name"
+  end
+
+  create_table "jobs", force: :cascade do |t|
+    t.string "job_name"
+    t.integer "sbg_grade"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "job_family_id"
+    t.bigint "business_unit_id"
+    t.bigint "organizational_unit_id"
+    t.bigint "division_id"
+    t.bigint "primary_cluster_id"
+    t.bigint "secondary_cluster_id"
+    t.bigint "work_level_id"
+    t.index ["business_unit_id"], name: "index_jobs_on_business_unit_id"
+    t.index ["division_id"], name: "index_jobs_on_division_id"
+    t.index ["job_family_id"], name: "index_jobs_on_job_family_id"
+    t.index ["organizational_unit_id"], name: "index_jobs_on_organizational_unit_id"
+    t.index ["primary_cluster_id"], name: "index_jobs_on_primary_cluster_id"
+    t.index ["secondary_cluster_id"], name: "index_jobs_on_secondary_cluster_id"
+    t.index ["work_level_id"], name: "index_jobs_on_work_level_id"
   end
 
   create_table "levels", force: :cascade do |t|
@@ -89,4 +112,12 @@ ActiveRecord::Schema.define(version: 20180112171756) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "competences", "jobs"
+  add_foreign_key "jobs", "business_units"
+  add_foreign_key "jobs", "divisions"
+  add_foreign_key "jobs", "job_families"
+  add_foreign_key "jobs", "organizational_units"
+  add_foreign_key "jobs", "primary_clusters"
+  add_foreign_key "jobs", "secondary_clusters"
+  add_foreign_key "jobs", "work_levels"
 end

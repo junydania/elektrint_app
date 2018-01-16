@@ -1,5 +1,7 @@
 class OrganizationalUnit < ApplicationRecord
 
+  has_many :jobs
+
   validates_presence_of  :unit_name
 
   before_save :capitalize_unit_name

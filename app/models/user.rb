@@ -7,5 +7,10 @@ class User < ApplicationRecord
   enum role: [:manager, :officer, :guest]
   validates_presence_of  :encrypted_password, :email
 
+
+  def fullname
+    "#{first_name} #{last_name}"
+  end
+
 end
 
