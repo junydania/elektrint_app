@@ -1,5 +1,9 @@
 class Admin::OrganizationalUnitsController < ApplicationController
 
+  def index
+    @organizational_units = OrganizationalUnit.order(:id)
+  end
+
   def new
     @org_unit = OrganizationalUnit.new
   end

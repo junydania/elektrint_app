@@ -15,5 +15,7 @@
  *= require_tree .
  *= require_tree ./css
  *= require_self
+ *= require sweetalert2
  *= require font-awesome
  */
+

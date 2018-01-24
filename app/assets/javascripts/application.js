@@ -10,17 +10,17 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require sweetalert2
 //= require rails-ujs
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
 //= require twitter/bootstrap
 //= require turbolinks
+//= require rails-sweetalert2-confirm
 //= require dataTables/jquery.dataTables
 //= require cocoon
 //= require_tree ./admin
 //= require_tree .
-
-
 
 

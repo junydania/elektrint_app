@@ -1,5 +1,9 @@
 class Admin::PrimaryClustersController < ApplicationController
 
+  def index
+    @primary_clusters = PrimaryCluster.order(:id)
+  end
+
   def new
     @primary_cluster = PrimaryCluster.new
   end

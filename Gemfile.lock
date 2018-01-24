@@ -8,6 +8,7 @@ GIT
 
 GEM
   remote: https://rubygems.org/
+  remote: https://rails-assets.org/
   specs:
     actioncable (5.1.4)
       actionpack (= 5.1.4)
@@ -210,11 +211,15 @@ GEM
       bundler (>= 1.3.0)
       railties (= 5.1.4)
       sprockets-rails (>= 2.0.0)
+    rails-assets-es6-promise (4.1.1)
+    rails-assets-sweetalert2 (5.1.1)
+      rails-assets-es6-promise
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails-sweetalert2-confirm (0.9.8)
     railties (5.1.4)
       actionpack (= 5.1.4)
       activesupport (= 5.1.4)
@@ -339,6 +344,8 @@ DEPENDENCIES
   pry-rails
   puma (~> 3.7)
   rails (~> 5.1.4)
+  rails-assets-sweetalert2!
+  rails-sweetalert2-confirm
   rspec-rails
   sass-rails (~> 5.0)
   selenium-webdriver

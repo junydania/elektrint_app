@@ -1,0 +1,93 @@
+<!-- ============================================================== -->
+<!-- Start right Content here -->
+<!-- ============================================================== -->
+<div class="content-page">
+  <!-- Start content -->
+  <div class="content">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="card-box">
+            <h4 class="header-title m-t-0 m-b-30">Organizational Units</h4>
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Organizational Unit Name</th>
+                  <th></th>
+                  <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <% @organizational_units.each do |organizational_unit| %>
+                    <tr>
+                      <td><%= organizational_unit.id %></td>
+                      <td><%= organizational_unit.unit_name %></td>
+                      <td><%= link_to 'Edit', edit_admin_organizational_unit_path(organizational_unit), class: 'btn btn-success' %></td>
+                      <td><%= link_to 'Remove',  admin_organizational_unit_path(organizational_unit), class: 'btn btn-danger', method: :delete, data: { confirm: 'Sure about this?',
+                                                                                                                                               swal: {
+                                                                                                                                                   text: "You can't retrieve this!",
+                                                                                                                                                   confirm_button_class: 'btn btn-success',
+                                                                                                                                                   confirm_button_text: 'Ride on!',
+                                                                                                                                                   cancel_button_class: 'btn btn-danger'
+                                                                                                                                               }} %></td>
+                    </tr>
+                <% end %>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div><!-- end col -->
+
+      </div>
+      <!-- end row -->
+
+    </div> <!-- container -->
+
+  </div> <!-- content -->
+
+  <footer class="footer text-right">
+    2018 © Stanbic IBTC
+  </footer>
+
+  <%= content_for :after_body do %>
+
+      <script>
+          var resizefunc = [];
+      </script>
+
+      <!-- jQuery  -->
+      <script src="/assets/js/jquery.min.js"></script>
+      <script src="/assets/js/bootstrap.min.js"></script>
+      <script src="/assets/js/detect.js"></script>
+      <script src="/assets/js/fastclick.js"></script>
+      <script src="/assets/js/jquery.slimscroll.js"></script>
+      <script src="/assets/js/jquery.blockUI.js"></script>
+      <script src="/assets/js/waves.js"></script>
+      <script src="/assets/js/jquery.nicescroll.js"></script>
+      <script src="/assets/js/jquery.slimscroll.js"></script>
+      <script src="/assets/js/jquery.scrollTo.min.js"></script>
+
+      <!-- KNOB JS -->
+      <!--[if IE]>
+      <script type="text/javascript" src="assets/plugins/jquery-knob/excanvas.js"></script>
+      <![endif]-->
+      <script src="/assets/plugins/jquery-knob/jquery.knob.js"></script>
+
+      <!--Morris Chart-->
+      <script src="/assets/plugins/morris/morris.min.js"></script>
+      <script src="/assets/plugins/raphael/raphael-min.js"></script>
+
+      <!-- Dashboard init -->
+      <script src="/assets/pages/jquery.dashboard.js"></script>
+
+      <!-- App js -->
+      <script src="/assets/js/jquery.core.js"></script>
+      <script src="/assets/js/jquery.app.js"></script>
+
+  <% end %>
+
+</div>

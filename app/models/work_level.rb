@@ -1,6 +1,7 @@
 class WorkLevel < ApplicationRecord
 
   has_many :jobs
+
   validates_presence_of  :level_name
 
   before_save :capitalize_level_name

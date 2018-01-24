@@ -1,5 +1,9 @@
 class Admin::BusinessUnitsController < ApplicationController
 
+  def index
+    @business_units = BusinessUnit.order(:id)
+  end
+
   def new
     @business_unit = BusinessUnit.new
   end
@@ -12,6 +16,9 @@ class Admin::BusinessUnitsController < ApplicationController
     else
       render 'new'
     end
+  end
+
+  def destroy
   end
 
 

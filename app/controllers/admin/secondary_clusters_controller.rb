@@ -1,6 +1,11 @@
 class Admin::SecondaryClustersController < ApplicationController
 
 
+  def index
+    @secondary_clusters = SecondaryCluster.order(:id)
+  end
+
+
   def new
     @secondary_cluster = SecondaryCluster.new
   end

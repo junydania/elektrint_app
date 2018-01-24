@@ -1,5 +1,9 @@
 class Admin::JobFamiliesController < ApplicationController
 
+  def index
+    @job_families = JobFamily.order(:id)
+  end
+
   def new
     @job_family = JobFamily.new
   end

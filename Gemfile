@@ -34,6 +34,10 @@ gem "font-awesome-rails"
 gem "cocoon"
 gem 'formtastic-bootstrap'
 gem 'jquery-ui-rails'
+gem 'rails-sweetalert2-confirm'
+gem 'rails-assets-sweetalert2', source: 'https://rails-assets.org'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

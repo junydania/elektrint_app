@@ -1,5 +1,8 @@
 class Admin::WorkLevelsController < ApplicationController
 
+  def index
+    @work_levels = WorkLevel.order(:id)
+  end
 
   def new
     @work_level = WorkLevel.new

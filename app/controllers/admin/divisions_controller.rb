@@ -1,5 +1,9 @@
 class Admin::DivisionsController < ApplicationController
 
+  def index
+    @divisions = Division.order(:id)
+  end
+
   def new
     @division = Division.new
   end
