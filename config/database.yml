@@ -23,13 +23,13 @@ default: &default
 
 development:
   <<: *default
-  database: career_tool_development
+  database: elektrint_rfq_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: career_tool
+
 
   # The password associated with the postgres role (username).
   #password:
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test: &test
   <<: *default
-  database: career_tool_test
+  database: elektrint_rfq_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,9 +80,9 @@ test: &test
 #
 production:
   <<: *default
-  database: career_tool_production
-  username: career_tool
-  password: <%= ENV['CAREER_TOOL_DATABASE_PASSWORD'] %>
+  database: elektrint_rfq_production
+  username: elektrint_rfq
+  password: <%= ENV['ELEKTRINT_RFQ_DATABASE_PASSWORD'] %>
 
 cucumber:
   <<: *test

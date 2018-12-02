@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: career_tool_production
+  channel_prefix: elektrint_rfq_production

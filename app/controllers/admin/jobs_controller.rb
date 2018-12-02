@@ -6,6 +6,10 @@ class Admin::JobsController < ApplicationController
     @jobs = Job.order(:id)
   end
 
+  def show
+
+  end
+
   def new
     @business_units = BusinessUnit.all
     @organizational_units = OrganizationalUnit.all

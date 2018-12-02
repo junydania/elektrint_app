@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180115202055) do
+ActiveRecord::Schema.define(version: 20181202150801) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,12 +21,30 @@ ActiveRecord::Schema.define(version: 20180115202055) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "categories", force: :cascade do |t|
+    t.string "category_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "competences", force: :cascade do |t|
     t.string "skill"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "job_id"
     t.index ["job_id"], name: "index_competences_on_job_id"
+  end
+
+  create_table "deliverables", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "departments", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "divisions", force: :cascade do |t|
@@ -80,6 +98,16 @@ ActiveRecord::Schema.define(version: 20180115202055) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "projects", force: :cascade do |t|
+    t.string "name"
+    t.string "scope"
+    t.string "objective"
+    t.datetime "expected_start_date"
+    t.datetime "expected_delivery_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "secondary_clusters", force: :cascade do |t|
     t.string "cluster_name"
     t.datetime "created_at", null: false
@@ -104,6 +132,16 @@ ActiveRecord::Schema.define(version: 20180115202055) do
     t.string "role"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  end
+
+  create_table "vendors", force: :cascade do |t|
+    t.string "company_name"
+    t.string "phone"
+    t.string "email"
+    t.string "representative_name"
+    t.string "office_address"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "work_levels", force: :cascade do |t|

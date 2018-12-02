@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   get "admin" => "admin/jobs#index", :as =>"admin_home"
 
   namespace :admin do
+    resources :vendors
+    resources :categories
+    resources :departments
     resources :jobs
     resources :job_families
     resources :primary_clusters
@@ -18,6 +21,4 @@ Rails.application.routes.draw do
     resources :organizational_units
     resources :work_levels
   end
-
-
 end
